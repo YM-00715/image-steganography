@@ -1,0 +1,61 @@
+# -------------------------
+# Python cache / bytecode
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtual environments
+# -------------------------
+venv/
+env/
+.venv/
+
+# -------------------------
+# OS / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+
+# -------------------------
+# Temporary / runtime files
+# -------------------------
+*.log
+*.tmp
+
+# -------------------------
+# Generated images / outputs
+# -------------------------
+encoded*.png
+encoded*.jpg
+decoded*.png
+
+# -------------------------
+# Jupyter / notebooks (if any)
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Build / distribution
+# -------------------------
+build/
+dist/
+*.egg-info/
+
+# -------------------------
+# Environment variables
+# -------------------------
+stego_env/
+.env
